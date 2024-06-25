@@ -1,0 +1,6 @@
+Flask
+tensorflow
+joblib
+opencv-python
+numpy
+reportlab
