@@ -14,8 +14,8 @@ app = Flask(__name__)
 secret_key = secrets.token_hex(16)
 app.secret_key = secret_key
 
-model_path = 'C:/DementiaPrediction/model.h5'
-svm_model_path = 'C:/DementiaPrediction/svm2_model.pkl'
+model_path = './model.h5'
+svm_model_path = './svm2_model.pkl'
 
 
 loaded_model = load_model(model_path)
